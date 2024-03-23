@@ -54,7 +54,7 @@ const Sidebar = ({ docs }) => {
 
     setRootNodes([...roots]);
     setNonRootNodesGrouped({ ...nonRoots });
-  }, [pathName]);
+  }, [pathName, docs]);
 
   return (
     <nav className="lg:block my-10">
